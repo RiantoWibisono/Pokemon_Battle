@@ -1,3 +1,6 @@
+# ========================================================================================================
+# Pokemon Battle
+# ========================================================================================================
 from flask import Flask, render_template, request, redirect, url_for, jsonify, send_from_directory, abort
 import requests
 import joblib
@@ -46,8 +49,6 @@ def hasil():
     url = 'https://pokeapi.co/api/v2/pokemon/'
     dataPokemon1 = requests.get(url+pokemon1)
     dataPokemon2 = requests.get(url+pokemon2)
-    pokedex = 'https://pokeapi.co/api/v2/pokedex/1/'
-    dataPokedex = requests.get(pokedex)
 
     plt.figure(figsize = (12,3))
     plt.style.use('ggplot')

@@ -1,11 +1,14 @@
+# ========================================================================================================
+# Pokemon Battle
+# ========================================================================================================
 import numpy as np 
 import pandas as pd 
 
 df1 = pd.read_csv('combats.csv')
 df2 = pd.read_csv('pokemon.csv', index_col = 0, usecols=['#', 'Name','HP','Attack','Defense','Sp. Atk','Sp. Def','Speed'])
 
-# ===============================================================
-# Menggabungkan kedua data set
+# ------------------------------------------------------------
+# File ini bertujuan untuk menggabungkan dataset dari combats.csv dan pokemon.csv, yang nantinya akan menjadi data input untuk model machine learning
 
 id1 = []
 id2 = []
