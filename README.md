@@ -10,11 +10,11 @@
 
 Disediakan __beberapa dataset__ seputar data spesies Pokemon beserta history pertandingan antar Pokemon. File **_pokemon.csv_** berisi data lengkap 800 spesies Pokemon, sedangkan file _**combats.csv**_ berisi data historis duel Pokemon beserta pemenangnya. Unduh dataset dari repo ini: [klik sini](./Dataset_3) atau langsung dari sumbernya: [klik sini](https://www.kaggle.com/sekarmg/pokemon).
 
-Dengan dataset tersebut, dibuat sebuah __aplikasi Flask__ berisi model machine learning (model bebas) yang dapat memprediksi pemenang dari duel Pokemon. Aplikasi yang dibuat harus memenuhi syarat minimal berikut:
+Dengan dataset tersebut, dibuat sebuah __aplikasi Flask__ berisi model machine learning (model *Logistic Regression*) yang dapat memprediksi pemenang dari duel Pokemon. Aplikasi yang dibuat harus memenuhi syarat minimal berikut:
 
-1. Jalankan file *backend.py*.
+1. Jalankan file _**backend.py**_.
 
-2. Run *localhost:5000* di web brwser. Akan tampil halaman utama:
+2. Run **localhost:5000** di web brwser. Akan tampil halaman utama:
     ![homePage](./ss1.png)
 
 3. Jalankan tombol **battle** untuk melihat prediksi. Screenshot tampilan halaman hasil:
